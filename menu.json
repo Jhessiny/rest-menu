@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Double Burger",
+    "tab-content": "burgers",
+    "price": 32.0,
+    "image": "images/double-cheddar.jpg"
+  },
+  {
+    "name": "Big Burger",
+    "tab-content": "burgers",
+    "price": 34.0,
+    "image": "images/big-cheedar.jpg"
+  },
+  {
+    "name": "Cheesecake",
+    "tab-content": "desserts",
+    "price": 22.0,
+    "image": "images/cheesecake.jpg"
+  },
+  {
+    "name": "Chicken Burger With Cheese",
+    "tab-content": "burgers",
+    "price": 25.0,
+    "image": "images/chicken-burger-cheese.jpg"
+  },
+  {
+    "name": "Crispy French Fries",
+    "tab-content": "appetizers",
+    "price": 18.0,
+    "image": "images/crispy-french-fries.jpg"
+  },
+  {
+    "name": "Cupcakes with cream",
+    "tab-content": "desserts",
+    "price": 14.0,
+    "image": "images/cupcakes-with-cream.jpg"
+  },
+  {
+    "name": "Cream Puff",
+    "tab-content": "desserts",
+    "price": 12.0,
+    "image": "images/delicious-cream-puff.jpg"
+  },
+  {
+    "name": "Fried Chicken Burger",
+    "tab-content": "burgers",
+    "price": 26.0,
+    "image": "images/fried-chicken-burger.jpg"
+  },
+  {
+    "name": "Fried Onions",
+    "tab-content": "appetizers",
+    "price": 19.0,
+    "image": "images/fried-onions.jpg"
+  },
+  {
+    "name": "Fried Chicken",
+    "tab-content": "appetizers",
+    "price": 24.0,
+    "image": "images/fried-chicken.jpg"
+  },
+  {
+    "name": "Hot Burger",
+    "tab-content": "burgers",
+    "price": 24.0,
+    "image": "images/hot-burger.jpg"
+  }
+]
