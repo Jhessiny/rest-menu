@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #333;
+  color: #fff;
+}
+
+.header  h1{
+  text-align: center;
+  margin: 30px 0;
+}
+
+.header__background{
+  min-height: 200px;
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.tabs {
+  display: flex;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.tabs__item {
+  padding: 15px 30px;
+  background-color: #444;
+}
+
+.tabs__item:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+.tabs__item--active {
+  background-color: #777;
+}
+
+.sections {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.menu-section {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(33%, max-content));
+  gap: 50px;
+}
+
+.menu-section__item {
+  width: 100%;
+  text-align: center;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transition: all .3s;
+}
+
+.menu-section__item:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.menu-section__item-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.menu-section__item img {
+  width: 100%;
+}
+
+.menu-section__item-name {
+}
