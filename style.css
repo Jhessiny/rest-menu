@@ -21,12 +21,12 @@ body {
   color: #fff;
 }
 
-.header  h1{
+.header h1 {
   text-align: center;
   margin: 30px 0;
 }
 
-.header__background{
+.header__background {
   min-height: 200px;
   background-image: url(images/background.jpg);
   background-size: cover;
@@ -59,12 +59,19 @@ body {
   max-width: 1200px;
   margin: auto;
   margin-top: 20px;
+  position: relative;
+  padding-bottom: 50px;
+  min-height: 100vh;
 }
 
 .menu-section {
-  display: grid;
   grid-template-columns: repeat(3, minmax(33%, max-content));
   gap: 50px;
+  display: none;
+}
+
+.menu-section--active{
+  display: grid;
 }
 
 .menu-section__item {
@@ -73,10 +80,10 @@ body {
   border-radius: 3px;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
-.menu-section__item:hover{
+.menu-section__item:hover {
   transform: scale(1.05);
   cursor: pointer;
 }
