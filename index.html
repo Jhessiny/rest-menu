@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="menu.json"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__background"></div>
+      <h1>Our Menu</h1>
+    </header>
+
+    <main class="menu">
+      <ul class="tabs">
+        <li
+          class="tabs__item tabs__item--active"
+          id="tab-all"
+          data-content="all"
+        >
+          Todos
+        </li>
+        <li class="tabs__item" id="tab-burgers" data-content="burgers">
+          Burgers
+        </li>
+        <li class="tabs__item" id="tab-appetizers" data-content="appetizers">
+          Aperitivos
+        </li>
+        <li class="tabs__item" id="tab-desserts" data-content="desserts">
+          Sobremesas
+        </li>
+      </ul>
+
+      <div class="sections"></div>
+    </main>
+  </body>
+</html>
