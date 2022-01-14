@@ -54,7 +54,7 @@ function generateSections(menuItems) {
             <img src="${item.image}" alt="" />
             <div class="menu-section__item-info">
               <h2 class="menu-section__item-name">${item.name}</h2>
-              <span>R$ ${item.price}</span>
+              <span>${formatPrice(item.price)}</span>
             </div>
           </li>`;
       section.insertAdjacentHTML("beforeend", html);
@@ -75,6 +75,13 @@ function updateUi() {
       tabContentList.classList.remove("menu-section--active");
     }
   });
+}
+
+function formatPrice(price) {
+  return new Intl.NumberFormat("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+  }).format(price);
 }
 
 (async function start() {
